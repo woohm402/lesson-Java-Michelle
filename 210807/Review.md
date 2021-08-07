@@ -1,32 +1,34 @@
 ## 수업 내용
 
-1. 출력
+1. 함수
 
-    - System.out.println()
-    - System.out.print()
-    - System.out.printf()
+```java
 
-2. 변수, 연산
+/*
+<return type> <function name> (<parameters>) {}
 
-    - `+` `-` `*`
-    - `/` -> quotient 또는 진짜 나누기
-    - `%` -> remainder
+*/
 
-3. 입력
+int add (int a, int b) {
+    return a + b;
+}
 
-    - `Scanner scanner = new Scanner(System.in);`
+```
 
-4. 타입
-    - 정수 (byte, short, int, long) 실수 (float, double) 문자 (char) 불리언 (boolean)
+2. while()
 
-5. 조건문
+    - 조건을 만족할 때까지 계속 반복
 
-    - if, else if, else, switch
+3. 배열
 
-6. 반복문
+```java
 
-    - for
+int[] arr = new int[100];
 
-7. 중첩
+arr[0] = 3;
 
-    - if + for, for + for
+for (int i = 0; i < 100; i++) {
+    arr[i] = scanner.nextInt();
+}
+
+```
